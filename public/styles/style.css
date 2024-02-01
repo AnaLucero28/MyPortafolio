@@ -22,6 +22,47 @@ html,
   
 /* }  */
 
+.header-content {
+  width: calc(100% - 100px); /* Resta 100px al ancho total */
+  margin-left: 100px; /* Agrega un margen izquierdo de 100px */
+  position: absolute;
+  margin-right: 200px;
+  left: 0;
+  top: 55%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  color: #fff;
+  font-weight: bold;
+  line-height: 1.2; /* Ajusta el espaciado entre líneas */
+  margin-bottom: 25px;
+  text-align: left;
+}
+.image-container {
+  width: 300px; 
+  float: right;
+}
+
+.image-container img {
+  max-width: 100%;
+}  
+.header-subtitle, .header-title, .header-mono {
+  text-align: left;
+  letter-spacing: 3px;
+  font-size: 75px; /* Aumenta el tamaño de la fuente */
+  margin-bottom: 10px; /* Ajusta el margen inferior */
+}
+.header-subtitle, .header-title{
+  
+  font-family: 'Lobster', sans-serif;
+}
+.header-mono {
+  font-family: 'Alegreya', serif;
+  font-size:50px;
+}
+
+
+
 footer{
   
     position: fixed;
